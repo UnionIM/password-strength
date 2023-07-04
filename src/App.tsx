@@ -1,7 +1,12 @@
 import React from "react";
+import PasswordInput from "./components/ui/PasswordInput";
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <PasswordInput></PasswordInput>
+    </div>
+  );
 }
 
 export default App;
